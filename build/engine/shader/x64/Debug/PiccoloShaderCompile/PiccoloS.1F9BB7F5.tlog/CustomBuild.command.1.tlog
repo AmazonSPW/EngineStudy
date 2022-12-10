@@ -1,0 +1,830 @@
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\AXIS.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/axis.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/axis.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\AXIS_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/axis.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/axis_frag.h" -DGLOBAL="AXIS_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\AXIS.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/axis.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/axis.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\AXIS_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/axis.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/axis_vert.h" -DGLOBAL="AXIS_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\COLOR_GRADING.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/color_grading.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/color_grading.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\COLOR_GRADING_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/color_grading.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/color_grading_frag.h" -DGLOBAL="COLOR_GRADING_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\COMBINE_UI.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/combine_ui.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/combine_ui.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\COMBINE_UI_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/combine_ui.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/combine_ui_frag.h" -DGLOBAL="COMBINE_UI_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\DEBUGDRAW.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/debugdraw.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/debugdraw.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\DEBUGDRAW_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/debugdraw.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/debugdraw_frag.h" -DGLOBAL="DEBUGDRAW_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\DEBUGDRAW.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/debugdraw.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/debugdraw.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\DEBUGDRAW_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/debugdraw.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/debugdraw_vert.h" -DGLOBAL="DEBUGDRAW_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\DEFERRED_LIGHTING.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/deferred_lighting.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/deferred_lighting.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\DEFERRED_LIGHTING_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/deferred_lighting.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/deferred_lighting_frag.h" -DGLOBAL="DEFERRED_LIGHTING_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\DEFERRED_LIGHTING.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/deferred_lighting.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/deferred_lighting.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\DEFERRED_LIGHTING_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/deferred_lighting.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/deferred_lighting_vert.h" -DGLOBAL="DEFERRED_LIGHTING_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\FXAA.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/fxaa.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/fxaa.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\FXAA_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/fxaa.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/fxaa_frag.h" -DGLOBAL="FXAA_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\FXAA.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/fxaa.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/fxaa.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\FXAA_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/fxaa.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/fxaa_vert.h" -DGLOBAL="FXAA_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH_DIRECTIONAL_LIGHT_SHADOW.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_directional_light_shadow.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh_directional_light_shadow.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_DIRECTIONAL_LIGHT_SHADOW_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_directional_light_shadow.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_directional_light_shadow_frag.h" -DGLOBAL="MESH_DIRECTIONAL_LIGHT_SHADOW_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH_DIRECTIONAL_LIGHT_SHADOW.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_directional_light_shadow.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh_directional_light_shadow.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_DIRECTIONAL_LIGHT_SHADOW_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_directional_light_shadow.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_directional_light_shadow_vert.h" -DGLOBAL="MESH_DIRECTIONAL_LIGHT_SHADOW_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_frag.h" -DGLOBAL="MESH_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH_GBUFFER.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_gbuffer.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh_gbuffer.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_GBUFFER_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_gbuffer.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_gbuffer_frag.h" -DGLOBAL="MESH_GBUFFER_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH_INEFFICIENT_PICK.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_inefficient_pick.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh_inefficient_pick.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_INEFFICIENT_PICK_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_inefficient_pick.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_inefficient_pick_frag.h" -DGLOBAL="MESH_INEFFICIENT_PICK_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH_INEFFICIENT_PICK.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_inefficient_pick.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh_inefficient_pick.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_INEFFICIENT_PICK_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_inefficient_pick.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_inefficient_pick_vert.h" -DGLOBAL="MESH_INEFFICIENT_PICK_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH_POINT_LIGHT_SHADOW.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_point_light_shadow.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh_point_light_shadow.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_POINT_LIGHT_SHADOW_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_point_light_shadow.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_point_light_shadow_frag.h" -DGLOBAL="MESH_POINT_LIGHT_SHADOW_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH_POINT_LIGHT_SHADOW.GEOM.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_point_light_shadow.geom.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh_point_light_shadow.geom
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_POINT_LIGHT_SHADOW_GEOM.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_point_light_shadow.geom.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_point_light_shadow_geom.h" -DGLOBAL="MESH_POINT_LIGHT_SHADOW_GEOM" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH_POINT_LIGHT_SHADOW.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_point_light_shadow.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh_point_light_shadow.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_POINT_LIGHT_SHADOW_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh_point_light_shadow.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_point_light_shadow_vert.h" -DGLOBAL="MESH_POINT_LIGHT_SHADOW_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\MESH.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/mesh.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\MESH_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/mesh.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/mesh_vert.h" -DGLOBAL="MESH_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\PARTICLE_EMIT.COMP.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particle_emit.comp.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/particle_emit.comp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\PARTICLE_EMIT_COMP.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particle_emit.comp.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/particle_emit_comp.h" -DGLOBAL="PARTICLE_EMIT_COMP" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\PARTICLE_KICKOFF.COMP.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particle_kickoff.comp.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/particle_kickoff.comp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\PARTICLE_KICKOFF_COMP.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particle_kickoff.comp.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/particle_kickoff_comp.h" -DGLOBAL="PARTICLE_KICKOFF_COMP" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\PARTICLE_SIMULATE.COMP.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particle_simulate.comp.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/particle_simulate.comp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\PARTICLE_SIMULATE_COMP.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particle_simulate.comp.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/particle_simulate_comp.h" -DGLOBAL="PARTICLE_SIMULATE_COMP" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\PARTICLEBILLBOARD.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particlebillboard.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/particlebillboard.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\PARTICLEBILLBOARD_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particlebillboard.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/particlebillboard_frag.h" -DGLOBAL="PARTICLEBILLBOARD_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\PARTICLEBILLBOARD.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particlebillboard.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/particlebillboard.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\PARTICLEBILLBOARD_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/particlebillboard.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/particlebillboard_vert.h" -DGLOBAL="PARTICLEBILLBOARD_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\POST_PROCESS.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/post_process.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/post_process.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\POST_PROCESS_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/post_process.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/post_process_vert.h" -DGLOBAL="POST_PROCESS_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\SKYBOX.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/skybox.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/skybox.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\SKYBOX_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/skybox.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/skybox_frag.h" -DGLOBAL="SKYBOX_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\SKYBOX.VERT.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/skybox.vert.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/skybox.vert
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\SKYBOX_VERT.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/skybox.vert.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/skybox_vert.h" -DGLOBAL="SKYBOX_VERT" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\94A86F741F2D8A90E1DD7CC3567BAC7C\TONE_MAPPING.FRAG.SPV.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\3rdparty\VulkanSDK\bin\Win32\glslangValidator.exe -IC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/include -V100 -o C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/tone_mapping.frag.spv C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/glsl/tone_mapping.frag
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\7D705E20135FF63DC71393BC64587997\TONE_MAPPING_FRAG.H.RULE
+setlocal
+cd C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DPATH=C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/spv/tone_mapping.frag.spv -DHEADER="C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/shader/generated/cpp/tone_mapping_frag.h" -DGLOBAL="TONE_MAPPING_FRAG" -P C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/cmake/GenerateShaderCPPFile.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\6DBE25163555117E4DA73F8F6673D02D\PICCOLOSHADERCOMPILE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\ENGINE\SHADER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9 -BC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/build --check-stamp-file C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/build/engine/shader/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

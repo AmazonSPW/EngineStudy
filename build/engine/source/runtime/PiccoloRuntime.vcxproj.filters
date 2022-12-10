@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\log\log_system.cpp">
+      <Filter>core\log</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\axis_aligned.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\math.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\matrix3.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\matrix4.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\quaternion.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\vector2.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\vector3.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\vector4.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\meta\meta_example.cpp">
+      <Filter>core\meta</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\meta\reflection\reflection.cpp">
+      <Filter>core\meta\reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\meta\reflection\reflection_register.cpp">
+      <Filter>core\meta\reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\meta\serializer\serializer.cpp">
+      <Filter>core\meta\serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\engine.cpp" />
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\animation_loader.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\animation_system.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\node.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\skeleton.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\utilities.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\character\character.cpp">
+      <Filter>function\character</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\controller\character_controller.cpp">
+      <Filter>function\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\animation\animation_component.cpp">
+      <Filter>function\framework\component\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\camera\camera_component.cpp">
+      <Filter>function\framework\component\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\mesh\mesh_component.cpp">
+      <Filter>function\framework\component\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\motor\motor_component.cpp">
+      <Filter>function\framework\component\motor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\particle\particle_component.cpp">
+      <Filter>function\framework\component\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\rigidbody\rigidbody_component.cpp">
+      <Filter>function\framework\component\rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\transform\transform_component.cpp">
+      <Filter>function\framework\component\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\level\level.cpp">
+      <Filter>function\framework\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\level\level_debugger.cpp">
+      <Filter>function\framework\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\object\object.cpp">
+      <Filter>function\framework\object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\object\object_id_allocator.cpp">
+      <Filter>function\framework\object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\world\world_manager.cpp">
+      <Filter>function\framework\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\global\global_context.cpp">
+      <Filter>function\global</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\input\input_system.cpp">
+      <Filter>function\input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\particle\emitter_id_allocator.cpp">
+      <Filter>function\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\particle\particle_manager.cpp">
+      <Filter>function\particle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\physics\jolt\utils.cpp">
+      <Filter>function\physics\jolt</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_manager.cpp">
+      <Filter>function\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_scene.cpp">
+      <Filter>function\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_buffer.cpp">
+      <Filter>function\render\debugdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_context.cpp">
+      <Filter>function\render\debugdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_font.cpp">
+      <Filter>function\render\debugdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_group.cpp">
+      <Filter>function\render\debugdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_manager.cpp">
+      <Filter>function\render\debugdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_pipeline.cpp">
+      <Filter>function\render\debugdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_primitive.cpp">
+      <Filter>function\render\debugdraw</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_rhi.cpp">
+      <Filter>function\render\interface\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_util.cpp">
+      <Filter>function\render\interface\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_vma.cpp">
+      <Filter>function\render\interface\vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\color_grading_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\combine_ui_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\directional_light_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\fxaa_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\main_camera_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\particle_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\pick_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\point_light_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\tone_mapping_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\ui_pass.cpp">
+      <Filter>function\render\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_camera.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_helper.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_pass.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_pass_base.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_pipeline.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_pipeline_base.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_resource.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_resource_base.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_scene.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_swap_context.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_system.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\window_system.cpp">
+      <Filter>function\render</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\ui\window_ui.cpp">
+      <Filter>function\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\platform\file_service\file_service.cpp">
+      <Filter>platform\file_service</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\platform\path\path.cpp">
+      <Filter>platform\path</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\asset_manager\asset_manager.cpp">
+      <Filter>resource\asset_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\config_manager\config_manager.cpp">
+      <Filter>resource\config_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\camera.cpp">
+      <Filter>resource\res_type\components</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\motor.cpp">
+      <Filter>resource\res_type\components</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\rigid_body.cpp">
+      <Filter>resource\res_type\components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\base\hash.h">
+      <Filter>core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\base\macro.h">
+      <Filter>core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\color\color.h">
+      <Filter>core\color</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\log\log_system.h">
+      <Filter>core\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\axis_aligned.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\math.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\math_headers.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\math_marcos.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\matrix3.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\matrix4.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\quaternion.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\random.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\transform.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\vector2.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\vector3.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\math\vector4.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\meta\json.h">
+      <Filter>core\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\meta\meta_example.h">
+      <Filter>core\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\meta\reflection\reflection.h">
+      <Filter>core\meta\reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\meta\reflection\reflection_register.h">
+      <Filter>core\meta\reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\core\meta\serializer\serializer.h">
+      <Filter>core\meta\serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\engine.h" />
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\animation_loader.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\animation_system.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\node.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\skeleton.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\animation\utilities.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\character\character.h">
+      <Filter>function\character</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\controller\character_controller.h">
+      <Filter>function\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\animation\animation_component.h">
+      <Filter>function\framework\component\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\camera\camera_component.h">
+      <Filter>function\framework\component\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\component.h">
+      <Filter>function\framework\component</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\mesh\mesh_component.h">
+      <Filter>function\framework\component\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\mesh\raw_mesh.h">
+      <Filter>function\framework\component\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\motor\motor_component.h">
+      <Filter>function\framework\component\motor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\particle\particle_component.h">
+      <Filter>function\framework\component\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\rigidbody\rigidbody_component.h">
+      <Filter>function\framework\component\rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\component\transform\transform_component.h">
+      <Filter>function\framework\component\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\level\level.h">
+      <Filter>function\framework\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\level\level_debugger.h">
+      <Filter>function\framework\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\object\object.h">
+      <Filter>function\framework\object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\object\object_id_allocator.h">
+      <Filter>function\framework\object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\framework\world\world_manager.h">
+      <Filter>function\framework\world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\global\global_context.h">
+      <Filter>function\global</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\input\input_system.h">
+      <Filter>function\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\particle\emitter_id_allocator.h">
+      <Filter>function\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\particle\particle_common.h">
+      <Filter>function\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\particle\particle_desc.h">
+      <Filter>function\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\particle\particle_manager.h">
+      <Filter>function\particle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\physics\jolt\utils.h">
+      <Filter>function\physics\jolt</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_config.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_manager.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\physics\physics_scene.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_buffer.h">
+      <Filter>function\render\debugdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_context.h">
+      <Filter>function\render\debugdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_font.h">
+      <Filter>function\render\debugdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_group.h">
+      <Filter>function\render\debugdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_manager.h">
+      <Filter>function\render\debugdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_pipeline.h">
+      <Filter>function\render\debugdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\debugdraw\debug_draw_primitive.h">
+      <Filter>function\render\debugdraw</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\interface\rhi.h">
+      <Filter>function\render\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\interface\rhi_struct.h">
+      <Filter>function\render\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_rhi.h">
+      <Filter>function\render\interface\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_rhi_resource.h">
+      <Filter>function\render\interface\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\interface\vulkan\vulkan_util.h">
+      <Filter>function\render\interface\vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\light.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\color_grading_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\combine_ui_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\directional_light_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\fxaa_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\main_camera_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\particle_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\pick_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\point_light_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\tone_mapping_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\passes\ui_pass.h">
+      <Filter>function\render\passes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_camera.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_common.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_debug_config.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_entity.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_guid_allocator.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_helper.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_mesh.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_object.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_pass.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_pass_base.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_pipeline.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_pipeline_base.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_resource.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_resource_base.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_scene.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_swap_context.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_system.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\render_type.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\render\window_system.h">
+      <Filter>function\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\function\ui\window_ui.h">
+      <Filter>function\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\platform\file_service\file_service.h">
+      <Filter>platform\file_service</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\platform\path\path.h">
+      <Filter>platform\path</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\asset_manager\asset_manager.h">
+      <Filter>resource\asset_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\config_manager\config_manager.h">
+      <Filter>resource\config_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\common\level.h">
+      <Filter>resource\res_type\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\common\object.h">
+      <Filter>resource\res_type\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\common\world.h">
+      <Filter>resource\res_type\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\animation.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\camera.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\emitter.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\mesh.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\motor.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\components\rigid_body.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\animation_clip.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\animation_skeleton_node_map.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\basic_shape.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\blend_state.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\camera_config.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\material.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\mesh_data.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\skeleton_data.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\data\skeleton_mask.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\global\global_particle.h">
+      <Filter>resource\res_type\global</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\resource\res_type\global\global_rendering.h">
+      <Filter>resource\res_type\global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\source\runtime\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{874667F9-0471-3053-B9D6-F42AFC55A46F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\base">
+      <UniqueIdentifier>{EF8AC41D-EFC1-350E-857E-A73858A02AB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\color">
+      <UniqueIdentifier>{C816C139-46E0-3C65-A983-D96F04455B43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\log">
+      <UniqueIdentifier>{E782E6C9-7FD5-3BAF-BA37-6EBC73D87AFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\math">
+      <UniqueIdentifier>{4F28FC50-6CB6-3F35-BA59-587AE166F64B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\meta">
+      <UniqueIdentifier>{E6FD85C5-188F-3E51-B165-FB1F6CFB0A0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\meta\reflection">
+      <UniqueIdentifier>{35D3D603-2CF1-3D58-83AC-4C869613A92F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\meta\serializer">
+      <UniqueIdentifier>{7C9EAF84-C19F-3926-A9C0-6F4BC6663941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function">
+      <UniqueIdentifier>{86F7A402-6DF8-3987-854E-49C54459D5DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\animation">
+      <UniqueIdentifier>{544F421E-B218-325F-BD54-F1D22955B80A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\character">
+      <UniqueIdentifier>{181DF8EA-379B-316C-8518-DF48A1320CD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\controller">
+      <UniqueIdentifier>{EADB09BB-9763-35E8-9A75-F35F893E55B8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework">
+      <UniqueIdentifier>{E6F01DDB-9E1E-305A-9826-7FE287A88E0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component">
+      <UniqueIdentifier>{ABEA8ECA-4AAA-39B8-8E5A-B52514FA015D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\animation">
+      <UniqueIdentifier>{3C06016B-DF39-3D8B-8554-952DD87F8B17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\camera">
+      <UniqueIdentifier>{3AD02144-B7EE-38C1-A798-2549CD9A3763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\mesh">
+      <UniqueIdentifier>{37E00BEB-7433-32C7-92B1-F99513F6C0CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\motor">
+      <UniqueIdentifier>{7559CAE0-BAF8-32CC-8E32-4071A64F943A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\particle">
+      <UniqueIdentifier>{E72E516C-A01C-3C29-A5BB-EE340DAB598B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\rigidbody">
+      <UniqueIdentifier>{EC9F179E-B48C-3F34-9FDD-1D83C70EB479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\transform">
+      <UniqueIdentifier>{EC3E17CB-41CC-3C26-A72F-69CFDC00C375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\level">
+      <UniqueIdentifier>{B72F58C1-EFFE-3C95-B3F5-B5B7915ACF78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\object">
+      <UniqueIdentifier>{13AC19AA-CDC9-3AF2-930E-ED6EE774AFE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\world">
+      <UniqueIdentifier>{8099C73C-CA4B-38C4-A072-80F5F2B1B0E9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\global">
+      <UniqueIdentifier>{E7BFD020-80DD-398D-97AF-C4673A485027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\input">
+      <UniqueIdentifier>{E9204C21-0527-3BFE-B13B-49F77A5E2BFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\particle">
+      <UniqueIdentifier>{788FDDEE-9B85-326A-B167-02CF2685E589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\physics">
+      <UniqueIdentifier>{A377FB7F-A1DC-3F71-A610-BF653E421628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\physics\jolt">
+      <UniqueIdentifier>{34820A48-C718-372D-9FE7-58F6046110E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render">
+      <UniqueIdentifier>{0A30D415-8FA8-31D0-B1C7-4C51FE7895FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\debugdraw">
+      <UniqueIdentifier>{58166FE6-5764-3097-B004-967F67CE7DFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\interface">
+      <UniqueIdentifier>{1B6CF7C0-439D-3A34-AC0B-E17523CC020B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\interface\vulkan">
+      <UniqueIdentifier>{FA13D9C2-97FE-346D-AD4A-9E959ADA01F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\passes">
+      <UniqueIdentifier>{7DF0BC32-EEC3-33B0-9D67-46CBF5A36CA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\ui">
+      <UniqueIdentifier>{1CC8059E-1848-37B9-AE66-EA3FE5100ED8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{5FFD70C5-45D1-3C2D-89F2-D71D114C8F5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\file_service">
+      <UniqueIdentifier>{BBFF1913-A216-373D-979E-4AF297A13CB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\path">
+      <UniqueIdentifier>{F6342C25-6469-33E3-B116-1CEA9998266C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{61B1AD53-CEEE-3F9D-983C-98D6C1B10529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\asset_manager">
+      <UniqueIdentifier>{9954F2C6-CB70-3F25-BECB-775F6E6AEF6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\config_manager">
+      <UniqueIdentifier>{C6FBD732-93D1-33AC-B5F0-5C0DC747CC43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type">
+      <UniqueIdentifier>{74E23709-A3FB-3422-B2AF-4310B250EE97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type\common">
+      <UniqueIdentifier>{39249A5E-09DF-320D-A4D9-95C210565C81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type\components">
+      <UniqueIdentifier>{B10331C7-B26D-3422-A885-BC04BB270C73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type\data">
+      <UniqueIdentifier>{1918145A-8FBA-3F7F-991A-BA8FE338392A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type\global">
+      <UniqueIdentifier>{11BF2CE3-C5EE-3811-A107-2F529AFA3C69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/build/CMakeFiles/cmake.verify_globs
+C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/3rdparty/CMakeLists.txt
+C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/3rdparty/imgui.cmake
+C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/3rdparty/stb.cmake

@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{BD193995-B59F-3707-8269-A955A5EB9C58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{FEE1C93B-3D49-37D6-9DD3-573F1475EE98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JoltPhysics", "ThirdParty\JoltPhysics", "{36C5E853-659B-3A72-A53A-34A553EF2BE8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{5A035C08-B05F-314E-BC51-EF058BEC4C54}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F4DD6D6E-677F-3353-9AD1-47DA7E1F4723} = {F4DD6D6E-677F-3353-9AD1-47DA7E1F4723}
+		{E36B5852-EA42-3777-87DB-030ACBFE8284} = {E36B5852-EA42-3777-87DB-030ACBFE8284}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "INSTALL", "INSTALL.vcxproj", "{9F6D57CE-9B3A-3959-B9F7-13FED58FD074}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A035C08-B05F-314E-BC51-EF058BEC4C54} = {5A035C08-B05F-314E-BC51-EF058BEC4C54}
+		{E36B5852-EA42-3777-87DB-030ACBFE8284} = {E36B5852-EA42-3777-87DB-030ACBFE8284}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Jolt", "Jolt.vcxproj", "{F4DD6D6E-677F-3353-9AD1-47DA7E1F4723}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E36B5852-EA42-3777-87DB-030ACBFE8284} = {E36B5852-EA42-3777-87DB-030ACBFE8284}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\..\..\..\\ZERO_CHECK.vcxproj", "{E36B5852-EA42-3777-87DB-030ACBFE8284}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		Distribution|x64 = Distribution|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A035C08-B05F-314E-BC51-EF058BEC4C54}.Debug|x64.ActiveCfg = Debug|x64
+		{5A035C08-B05F-314E-BC51-EF058BEC4C54}.Debug|x64.Build.0 = Debug|x64
+		{5A035C08-B05F-314E-BC51-EF058BEC4C54}.Release|x64.ActiveCfg = Release|x64
+		{5A035C08-B05F-314E-BC51-EF058BEC4C54}.Release|x64.Build.0 = Release|x64
+		{5A035C08-B05F-314E-BC51-EF058BEC4C54}.Distribution|x64.ActiveCfg = Distribution|x64
+		{5A035C08-B05F-314E-BC51-EF058BEC4C54}.Distribution|x64.Build.0 = Distribution|x64
+		{9F6D57CE-9B3A-3959-B9F7-13FED58FD074}.Debug|x64.ActiveCfg = Debug|x64
+		{9F6D57CE-9B3A-3959-B9F7-13FED58FD074}.Release|x64.ActiveCfg = Release|x64
+		{9F6D57CE-9B3A-3959-B9F7-13FED58FD074}.Distribution|x64.ActiveCfg = Distribution|x64
+		{F4DD6D6E-677F-3353-9AD1-47DA7E1F4723}.Debug|x64.ActiveCfg = Debug|x64
+		{F4DD6D6E-677F-3353-9AD1-47DA7E1F4723}.Debug|x64.Build.0 = Debug|x64
+		{F4DD6D6E-677F-3353-9AD1-47DA7E1F4723}.Release|x64.ActiveCfg = Release|x64
+		{F4DD6D6E-677F-3353-9AD1-47DA7E1F4723}.Release|x64.Build.0 = Release|x64
+		{F4DD6D6E-677F-3353-9AD1-47DA7E1F4723}.Distribution|x64.ActiveCfg = Distribution|x64
+		{F4DD6D6E-677F-3353-9AD1-47DA7E1F4723}.Distribution|x64.Build.0 = Distribution|x64
+		{E36B5852-EA42-3777-87DB-030ACBFE8284}.Debug|x64.ActiveCfg = Debug|x64
+		{E36B5852-EA42-3777-87DB-030ACBFE8284}.Debug|x64.Build.0 = Debug|x64
+		{E36B5852-EA42-3777-87DB-030ACBFE8284}.Release|x64.ActiveCfg = Release|x64
+		{E36B5852-EA42-3777-87DB-030ACBFE8284}.Release|x64.Build.0 = Release|x64
+		{E36B5852-EA42-3777-87DB-030ACBFE8284}.Distribution|x64.ActiveCfg = Distribution|x64
+		{E36B5852-EA42-3777-87DB-030ACBFE8284}.Distribution|x64.Build.0 = Distribution|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A035C08-B05F-314E-BC51-EF058BEC4C54} = {BD193995-B59F-3707-8269-A955A5EB9C58}
+		{9F6D57CE-9B3A-3959-B9F7-13FED58FD074} = {BD193995-B59F-3707-8269-A955A5EB9C58}
+		{E36B5852-EA42-3777-87DB-030ACBFE8284} = {BD193995-B59F-3707-8269-A955A5EB9C58}
+		{36C5E853-659B-3A72-A53A-34A553EF2BE8} = {FEE1C93B-3D49-37D6-9DD3-573F1475EE98}
+		{F4DD6D6E-677F-3353-9AD1-47DA7E1F4723} = {36C5E853-659B-3A72-A53A-34A553EF2BE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {692FAE91-7CE1-3566-9F60-9242F3D97E34}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

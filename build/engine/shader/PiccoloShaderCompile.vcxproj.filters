@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\axis.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\axis_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\axis.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\axis_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\color_grading.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\color_grading_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\combine_ui.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\combine_ui_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\debugdraw.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\debugdraw_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\debugdraw.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\debugdraw_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\deferred_lighting.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\deferred_lighting_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\deferred_lighting.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\deferred_lighting_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\fxaa.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\fxaa_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\fxaa.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\fxaa_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh_directional_light_shadow.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_directional_light_shadow_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh_directional_light_shadow.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_directional_light_shadow_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh_gbuffer.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_gbuffer_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh_inefficient_pick.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_inefficient_pick_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh_inefficient_pick.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_inefficient_pick_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh_point_light_shadow.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_point_light_shadow_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh_point_light_shadow.geom.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_point_light_shadow_geom.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh_point_light_shadow.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_point_light_shadow_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\mesh.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\mesh_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\particle_emit.comp.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\particle_emit_comp.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\particle_kickoff.comp.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\particle_kickoff_comp.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\particle_simulate.comp.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\particle_simulate_comp.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\particlebillboard.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\particlebillboard_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\particlebillboard.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\particlebillboard_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\post_process.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\post_process_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\skybox.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\skybox_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\skybox.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\skybox_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\94a86f741f2d8a90e1dd7cc3567bac7c\tone_mapping.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\7d705e20135ff63dc71393bc64587997\tone_mapping_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\CMakeFiles\6dbe25163555117e4da73f8f6673d02d\PiccoloShaderCompile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\axis.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\axis.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\color_grading.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\combine_ui.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\debugdraw.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\debugdraw.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\deferred_lighting.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\deferred_lighting.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\fxaa.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\fxaa.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh_directional_light_shadow.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh_directional_light_shadow.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh_gbuffer.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh_inefficient_pick.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh_inefficient_pick.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh_point_light_shadow.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh_point_light_shadow.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\mesh_point_light_shadow.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\particle_emit.comp">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\particle_kickoff.comp">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\particle_simulate.comp">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\particlebillboard.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\particlebillboard.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\post_process.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\skybox.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\skybox.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\shader\glsl\tone_mapping.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\engine\shader\CMakeFiles\PiccoloShaderCompile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3BA4D0FE-11AF-33BA-A11B-843155FA278C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{5181CC65-6F05-3662-8717-A5D424C5526E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
