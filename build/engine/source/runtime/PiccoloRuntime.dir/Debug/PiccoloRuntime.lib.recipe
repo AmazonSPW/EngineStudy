@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\bin\PiccoloParser.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\engine\x64\Debug\PiccoloPreCompile</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\engine\shader\x64\Debug\PiccoloShaderCompile</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\build\engine\3rdparty\x64\Debug\stb</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,28 @@
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\BUILD\CMAKEFILES\16F254E3B91E570F6DFD58B307279B7F\PICCOLOPRECOMPILE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "************************************************************* "
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "**** [Precompile] BEGIN "
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "************************************************************* "
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\AmazonZ\Downloads\Piccolo-0.0.9\Piccolo-0.0.9\engine\bin\PiccoloParser.exe C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/bin/precompile.json C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/build/parser_header.h C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/engine/source * Piccolo 0
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "+++ Precompile finished +++"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\ENGINE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9 -BC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/build --check-stamp-file C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/build/engine/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\AMAZONZ\DOWNLOADS\PICCOLO-0.0.9\PICCOLO-0.0.9\ENGINE\3RDPARTY\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9 -BC:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/build --check-stamp-file C:/Users/AmazonZ/Downloads/Piccolo-0.0.9/Piccolo-0.0.9/build/engine/3rdparty/glfw/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
